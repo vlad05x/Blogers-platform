@@ -1,0 +1,79 @@
+.header {
+  padding: 30px 0px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__logo a {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    cursor: pointer;
+  }
+
+  &_menu {
+    display: flex;
+    align-items: center;
+    gap: 155px;
+
+    .language-selector {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .language-option {
+        color: rgb(255, 255, 255);
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 0 5px;
+        margin: 0 5px;
+        cursor: pointer;
+
+        &:hover {
+          color: rgb(144, 107, 193);
+        }
+      }
+    }
+
+    .menu-list {
+      display: flex;
+      gap: 30px;
+
+      .menu-item a {
+        color: rgb(255, 255, 255);
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+
+        &:hover {
+          color: rgb(144, 107, 193);
+        }
+      }
+    }
+
+    .auth_button {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+
+      .sigin-btn {
+        width: 52px;
+        height: 22px;
+        background: none;
+        box-shadow: none;
+        &:hover {
+          color: rgb(144, 107, 193);
+        }
+      }
+    }
+  }
+}
