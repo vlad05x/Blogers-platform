@@ -54,6 +54,7 @@ body {
   line-height: 14px;
   letter-spacing: 0px;
   text-align: center;
+  text-transform: uppercase;
   &:hover {
     background: rgb(98, 150, 226);
   }
@@ -95,4 +96,40 @@ body {
   top: calc(60% + 7px);
   width: 15px;
   left: -8px;
+}
+// -------- Main --------
+.main {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &_content {
+    margin: 30px 0px;
+    max-width: 50%;
+  }
+}
+.main_content__title {
+  width: 793px;
+  height: 173px;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0%;
+}
+.main_content__text {
+  width: 590px;
+  height: 173px;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 43px;
+  letter-spacing: 0%;
+  margin: 24px 0px;
+}
+.main_photo {
+  width: 703px;
+  height: 656px;
 }

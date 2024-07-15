@@ -20,7 +20,7 @@
     left: 40%;
     width: 60%;
     height: 100%;
-     background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     padding-top: 100px;
     padding-right: 45px;
     transform: translateX(150%);
@@ -55,6 +55,17 @@
   .burger_menu.active span:first-of-type {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  .main_content__title {
+    width: 637px;
+    height: 129px;
+    font-size: 36px;
+  }
+  .main_content__text {
+    width: 642px;
+    height: 87px;
+    font-size: 24px;
   }
 }
 
